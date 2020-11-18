@@ -1,7 +1,5 @@
 # REST-Node-Express-MySQL
 
-
-
 ## About The Project
 
 Projek ini adalah projek latihan untuk belajar cara membuat Restful API menggunakan *framework* ExpressJS dan *database* MySQL.  dengan studi kasus membuat daftar *user*.
@@ -16,19 +14,14 @@ Projek ini adalah projek latihan untuk belajar cara membuat Restful API mengguna
 
 #### Scheme Database
 
+```sql
 - id INT PRIMARY KEY AUTO_INCREMENT
-
 - username VARCHAR (10)
-
 - full_name VARCHAR (50)
-
 - username_github VARCHAR (15)
-
 - class VARCHAR (10)
-
 - description TEXT
-
-
+```
 
 ## Getting Started
 
@@ -38,7 +31,7 @@ Berikut panduan untuk menjalankan projek ini secara lokal. untuk bisa menjalanka
 
 - npm
   
-  ``` text
+  ```text
   npm install npm@latest -g
   ```
 
@@ -78,11 +71,9 @@ const conn = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '',
-  database: 'api_curd_user'
+  database: 'namaDB'
 });
 ```
-
-
 
 #### Scheme API
 
@@ -121,13 +112,9 @@ DELETE
 /api/users/:id
 ```
 
-
-
 #### Contribution
 
 berkontribusi membuat komunitas open source menjadi tempat yang luar biasa untuk belajar, menginspirasi, dan berkreasi. sangat diperislahkan dan buat ***branch*** baru.
-
-
 
 #### LICENSE
 
